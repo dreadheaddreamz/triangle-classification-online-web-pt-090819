@@ -11,7 +11,12 @@ class Triangle
     valid?
     if s1 == s2 && s2 == s3
       :equilateral
-      elsif s1 == s2 || 
+      elsif s1 == s2 || s1 == s3 || s2 == s3
+       :isosceles
+     else
+       :scalene
+     end
+   end
       
   
 end
