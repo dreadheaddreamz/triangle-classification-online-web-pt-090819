@@ -10,5 +10,7 @@ class Triangle
   def kind
     valid?
     if s1 === s2 && s2 === s3
+      :equilateral
+      elsif
   
 end
